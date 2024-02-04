@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "kdam thmor pro",sans-serif;
+}
+li:hover {
+    color: darkred;
+
+}
+
+#logo{
+    width: 160px;
+    height: auto;
+
+}
+
+#banner {
+    background-image: url(https://cdn.europosters.eu/image/hp/66923.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#trailercontainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ .trailer {
+    width: 50%;
+
+ }
+ 
+ #sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+ }
+
+ .descriton {
+    color: #fff;
+    font-size: 19px;
+    font-family: "kdam thmor pro",sans-serif;
+    width: 70%;
+ }
+
+ .botao {
+    width: 200px;
+    height: 60px;
+    background-color:darkred;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 5s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    
+
+ }
+
+ .botao:hover {
+    background-color: #fff;
+    color: black;
+ }
+
+.actor-cards-contain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "kdam thmor pro",sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: "kdam thmor pro",sans-serif;
+    
+}
+
+.footer-navigation {
+    display: none;
+
+}
+
+.listafinal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.banner-1 {
+    background-image: url(https://www.mundopositivo.com.br/wp-content/uploads/2022/02/batman-traje-de-robert-pattinson-pesa-um-absurdo-1.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://ogimg.infoglobo.com.br/in/25422676-086-2d9/FT1086A/760/batman_ver22_xlg.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://rollingstone.uol.com.br/media/uploads/paul_dano_como_charada_the_batman_foto_divulgacao_warner.jpg);
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+
+    }
+
+    #banner {
+        background-position:10%;
+        
+
+    }
+
+    #trailercontainer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriton {
+        width: 100%;
+    }
+
+    .botao {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .card-content {
+        grid-template-columns: 1fr;
+        margin-top: 1090px;
+
+
+    }
+
+   
+
+   
+
+    
+}
+
+

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "kdam thmor pro",sans-serif;
+    
+   
+}
+body {
+    background-color:black;
+    
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:"kdam thmor pro",sans-serif;
+}
+li:hover {
+    color: darkred;
+}
+
+#logo{
+    width: 160px;
+    height: auto;
+}
+#Nome {
+    color: red;
+}
+
+
+.box {
+    color:#fff;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    background-color:#6e0e0e;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    
+}
+
+fieldset {
+   border: 3px solid black;
+}
+
+legend {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    border-radius: 8px;
+    
+}
+
+.input-box {
+    position: relative;
+    
+
+}
+
+.inputuser {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    letter-spacing: 2px;
+   
+}
+
+.label-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.inputuser:focus ~ .label-input,
+.inputuser:valid ~ .label-input {
+    top: -20px;
+    font-size: 17px;
+    color:#000000;
+
+}
+
+#data {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#submit {
+    background-color:#fff;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color:black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 3s;
+}
+
+#submit:hover {
+    background-color:red;
+}
+
+
+
+
+
+
+
